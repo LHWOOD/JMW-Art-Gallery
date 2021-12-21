@@ -1,13 +1,26 @@
 body {
-  background-color: rgb(19, 20, 20);
+  box-sizing: border-box;
+  background-color: rgb(29, 31, 31);
   color: aliceblue;
 }
 
+#main {
+  margin: 15%;
+}
+
 #card {
-  display: inline;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+  margin-bottom: 40px;
+  font-size: 60px;
+}
+
+#card1 {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
 }
 
 #card-btn {
-  margin-left: 50%;
 }
