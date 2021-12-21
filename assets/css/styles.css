@@ -1,0 +1,13 @@
+body {
+  background-color: rgb(19, 20, 20);
+  color: aliceblue;
+}
+
+#card {
+  display: inline;
+  text-align: center;
+}
+
+#card-btn {
+  margin-left: 50%;
+}
