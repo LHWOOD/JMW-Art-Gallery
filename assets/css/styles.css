@@ -12,7 +12,21 @@ body {
 #card {
   display: block;
   text-align: center;
-  font-size: 50px;
+}
+#welcome {
+  font-size: 40px;
+}
+
+#to {
+  font-size: 40px;
+}
+
+#of {
+  font-size: 40px;
+}
+
+#jmw {
+  font-size: 40px;
 }
 
 h2 {
@@ -29,4 +43,35 @@ h2 {
   margin-top: 15px;
   padding: 5px;
   border-radius: 5px;
+  font-family: "Cinzel", serif;
+  background-color: aliceblue;
+}
+
+.none {
+  display: none;
+}
+
+.inandout {
+  -webkit-animation: fadeinout 2s linear forwards;
+  animation: fadeinout 2s linear forwards;
+}
+
+@-webkit-keyframes fadeinout {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeinout {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
 }
