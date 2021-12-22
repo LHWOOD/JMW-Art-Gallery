@@ -52,8 +52,8 @@ h2 {
 }
 
 .inandout {
-  -webkit-animation: fadeinout 2s linear forwards;
-  animation: fadeinout 2s linear forwards;
+  -webkit-animation: fadeinout 3s linear forwards;
+  animation: fadeinout 3s linear forwards;
 }
 
 @-webkit-keyframes fadeinout {

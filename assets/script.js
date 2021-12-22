@@ -14,20 +14,20 @@ document.addEventListener("DOMContentLoaded", () => {
         welCome.classList.remove("none");
         welCome.classList.add("inandout");
       }
-      if (secondsLeft === 7) {
+      if (secondsLeft === 6) {
         too.classList.remove("none");
         too.classList.add("inandout");
       }
-      if (secondsLeft === 5) {
+      if (secondsLeft === 3) {
         fo.classList.remove("none");
         fo.classList.add("inandout");
       }
-      if (secondsLeft === 3) {
+      if (secondsLeft === 0) {
         JMW.classList.remove("none");
-      }
-      if (secondsLeft === 1) {
         btn.classList.remove("none");
       }
+      //   if (secondsLeft === 0) {
+      //   }
 
       if (secondsLeft === 0) {
         clearInterval(timerInterval);
