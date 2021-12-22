@@ -10,22 +10,22 @@ document.addEventListener("DOMContentLoaded", () => {
     let timerInterval = setInterval(function () {
       secondsLeft--;
 
-      if (secondsLeft === 8) {
+      if (secondsLeft === 9) {
         welCome.classList.remove("none");
         welCome.classList.add("inandout");
       }
-      if (secondsLeft === 6) {
+      if (secondsLeft === 7) {
         too.classList.remove("none");
         too.classList.add("inandout");
       }
-      if (secondsLeft === 4) {
+      if (secondsLeft === 5) {
         fo.classList.remove("none");
         fo.classList.add("inandout");
       }
-      if (secondsLeft === 2) {
+      if (secondsLeft === 3) {
         JMW.classList.remove("none");
       }
-      if (secondsLeft === 0) {
+      if (secondsLeft === 1) {
         btn.classList.remove("none");
       }
 
