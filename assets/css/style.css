@@ -104,10 +104,10 @@ a.nav-brand:hover span {
   box-shadow: var(--shadow-inset);
 }
 
-#another {
+.another {
   display: flex;
   justify-content: center;
-  margin-top: 25%;
+  margin: 5px;
   transition: color 0.5s ease-in-out;
 }
 
@@ -117,4 +117,8 @@ a.nav-brand:hover span {
   margin-top: 23%;
   color: aliceblue;
   transition: color 0.5s ease-in-out;
+  font-size: 25px;
 }
+
+/* #main {
+} */
