@@ -83,7 +83,7 @@ a.nav-brand:hover span {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   z-index: 1500;
   transition: top 0.5s ease-in-out;
 }
