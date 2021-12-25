@@ -118,6 +118,10 @@ img {
   padding: 5px;
 }
 
+.large {
+  height: 360px;
+}
+
 img:hover {
   box-shadow: 0 0 4px 4px rgba(225, 231, 233, 0.5);
 }
