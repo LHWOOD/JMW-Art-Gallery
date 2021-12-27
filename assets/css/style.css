@@ -116,10 +116,11 @@ img {
   border-radius: 4px;
   border: 1px solid #ddd;
   padding: 5px;
+  height: 120px;
 }
 
 .large {
-  height: 360px;
+  height: 240px;
 }
 
 img:hover {

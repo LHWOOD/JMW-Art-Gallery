@@ -1,21 +1,21 @@
 let openMenu = document.querySelector(".menu-toggler");
 let navList = document.querySelector(".nav-list");
-let that = document.querySelector("#yoyo");
+let pic = document.querySelector("#yoyo");
+let pics = document.querySelectorAll("img");
+let mode = "small";
 
 openMenu.addEventListener("click", function () {
   navList.classList.toggle("active");
 });
 
-// function handle() {
-//   enlarge();
-// }
-
-// function enlarge() {
-//   if (that.height === 360) {
-//     that.classList.add("another");
-//   } else {
-//     that.classList.add("large");
-//   }
-// }
-
-// that.addEventListener("click", handle);
+pics.forEach((pic) => {
+  pic.addEventListener("click", function () {
+    if (mode === "small") {
+      mode = "large";
+      pic.setAttribute("class", "large");
+    } else {
+      mode = "small";
+      pic.setAttribute("class", "another");
+    }
+  });
+});
